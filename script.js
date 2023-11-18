@@ -20,7 +20,7 @@ const data = [
       let age=prompt("Enter age");
       let profession=prompt("Enter profession");
   
-      if (!newName || isNaN(newAge) || !newProfession) {
+      if (!name || isNaN(age) || !profession) {
         alert('Invalid input. Please enter valid details.');
         return;
       }
